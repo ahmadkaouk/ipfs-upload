@@ -17,7 +17,7 @@ npx hardhat node
 finally, launch the ipfs-upload with the path to file to upload. You will be asked to enter the
 account address to use to deploy the smart contract and the URL to the JSON-RPC node.
 ```bash
-> ipfs --file tests/test.txt
+> ipfs-upload --file tests/test.txt
 Uploading tests/test.txt to IPFS...
 File uploaded CID = QmQ6zADQZGASCnYxXfFkGHUF5Fc7ibrtjGWaxjY8w9nANp
 Enter your account address(prefix with 0x:
